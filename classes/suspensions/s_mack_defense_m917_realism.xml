@@ -8,12 +8,9 @@
 		Name="mack_defense_m917_suspension_realism_active"
 		DeviationDelta=".002"
 	>
-		<!-- <Suspension Damping="0.5" Height="0.15" Strength="0.06" WheelType="front"  BrokenSuspensionMax="0.2" DeviationMax="0.01" SuspensionMin="-0.30" />
-		<Suspension Damping="0.6" Height="0.04" Strength="0.02" WheelType="middle" BrokenSuspensionMax="0.2" DeviationMax=".3"   SuspensionMin="-0.18" />
-		<Suspension Damping="0.5" Height="0.00" Strength="0.07" WheelType="rear"   BrokenSuspensionMax="0.0" DeviationMax="0.01" SuspensionMin="0.0" /> -->
 		<Suspension 
 			Height="0.19" 
-			Strength="0.03" 
+			Strength="0.04" 
 			WheelType="front" 
 			BrokenSuspensionMax=".25" 
 			SuspensionMin="-0.25" 
@@ -22,7 +19,7 @@
 		/>
 		<Suspension 
 			Height="0.14" 
-			Strength="0.026" 
+			Strength="0.0275" 
 			WheelType="rear" 
 			BrokenSuspensionMax=".25" 
 			SuspensionMin="-0.3" 
@@ -48,12 +45,12 @@
 		BrokenWheelDamageMultiplier="2"
 		CriticalDamageThreshold="0.6"
 		DamageCapacity="220"
-		Name="mack_defense_m917_suspension_2_active"
+		Name="mack_defense_m917_suspension_realism_stiff_active"
 		DeviationDelta=".002"
 	>
 		<Suspension 
 			Height="0.19" 
-			Strength="0.04" 
+			Strength="0.045" 
 			WheelType="front" 
 			BrokenSuspensionMax=".25" 
 			SuspensionMin="-0.2" 

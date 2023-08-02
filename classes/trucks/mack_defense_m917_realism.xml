@@ -403,7 +403,7 @@
 			UiIcon328x458="shopImgMackDefense917"
 			UiIcon40x40="offroadVehicleImg"
 			UiIconLogo="MackDefenseLogo80"
-			UiName="MACK M917 8x8"
+			UiName="UI_VEHICLE_MACK_DEFENSE_M917_REALISM_NAME"
 		/>
 		<CustomizationCameras>
 			<CameraPos FOV="32.0" Name="default" InterestPosition="(5.275; 1.623; 0)" MaxXRotation="360" MaxYRotation="360" MaxZoom="2" Position="(12.823; 1.44; -4.73)" />
@@ -523,6 +523,7 @@
 			<Socket Names="MinicranePOG" Offset="(0.770; 1.62; 0)" NamesBlock="FrameAddonDerryFirefighter, BunkLog, FrameAddonTank, FrameAddonKung, BigCraneUs, BigCrane, BigCraneRu, FrameAddonMaintainerBig">
 				<ExtraParent Frame="BoneChassis_cdt" Offset="(0; 0; -0.02)" />
 				<ExtraParent Frame="BoneChassis_cdt" Offset="(0; 0; 0.02)" />
+				<AddonsShift Offset="(-0.46; 0; 0)" Types="MackDefenseM917RealismCabinProtector" />
 			</Socket>
 		</AddonSockets>
 		<AddonSockets DefaultAddon="stuff_hood_mack_bulldog_mack_defense_m917">
