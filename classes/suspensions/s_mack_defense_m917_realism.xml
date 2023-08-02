@@ -1,0 +1,85 @@
+<_templates Include="trucks" />
+<SuspensionSetVariants>
+	<SuspensionSet
+		_template="Active"
+		BrokenWheelDamageMultiplier="2"
+		CriticalDamageThreshold="0.7"
+		DamageCapacity="220"
+		Name="mack_defense_m917_suspension_realism_active"
+		DeviationDelta=".002"
+	>
+		<!-- <Suspension Damping="0.5" Height="0.15" Strength="0.06" WheelType="front"  BrokenSuspensionMax="0.2" DeviationMax="0.01" SuspensionMin="-0.30" />
+		<Suspension Damping="0.6" Height="0.04" Strength="0.02" WheelType="middle" BrokenSuspensionMax="0.2" DeviationMax=".3"   SuspensionMin="-0.18" />
+		<Suspension Damping="0.5" Height="0.00" Strength="0.07" WheelType="rear"   BrokenSuspensionMax="0.0" DeviationMax="0.01" SuspensionMin="0.0" /> -->
+		<Suspension 
+			Height="0.19" 
+			Strength="0.03" 
+			WheelType="front" 
+			BrokenSuspensionMax=".25" 
+			SuspensionMin="-0.25" 
+			Damping="0.45"
+			DeviationMax="0.1"
+		/>
+		<Suspension 
+			Height="0.14" 
+			Strength="0.026" 
+			WheelType="rear" 
+			BrokenSuspensionMax=".25" 
+			SuspensionMin="-0.3" 
+			Damping="0.4"
+			DeviationMax="0.1" 
+		/>
+		<GameData
+			Price="11300"
+			UnlockByExploration="false"
+			UnlockByRank="1"
+		>
+			<UiDesc
+				UiDesc="UI_TUNING_HENDRICKSON_PRIMAAAX_DESC"
+				UiIcon30x30=""
+				UiIcon40x40=""
+				UiName="UI_TUNING_HENDRICKSON_PRIMAAAX_NAME"
+			/>
+		</GameData>
+	</SuspensionSet>
+	
+	<SuspensionSet
+		_template="Active"
+		BrokenWheelDamageMultiplier="2"
+		CriticalDamageThreshold="0.6"
+		DamageCapacity="220"
+		Name="mack_defense_m917_suspension_2_active"
+		DeviationDelta=".002"
+	>
+		<Suspension 
+			Height="0.19" 
+			Strength="0.04" 
+			WheelType="front" 
+			BrokenSuspensionMax=".25" 
+			SuspensionMin="-0.2" 
+			Damping="0.45"
+			DeviationMax="0.1"
+		/>
+		<Suspension 
+			Height="0.14" 
+			Strength="0.036" 
+			WheelType="rear" 
+			BrokenSuspensionMax=".25" 
+			SuspensionMin="-0.2" 
+			Damping="0.4"
+			DeviationMax="0.1" 
+		/>
+		<GameData
+			Price="12200"
+			UnlockByExploration="false"
+			UnlockByRank="1"
+		>
+			<UiDesc
+				UiDesc="UI_TUNING_HENDRICKSON_PRIMAAAX_STIFF_DESC"
+				UiIcon30x30=""
+				UiIcon40x40=""
+				UiName="UI_TUNING_HENDRICKSON_PRIMAAAX_STIFF_NAME"
+			/>
+		</GameData>
+	</SuspensionSet>
+</SuspensionSetVariants>

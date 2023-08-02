@@ -1,0 +1,175 @@
+<GearboxVariants>
+	<Gearbox
+		AWDConsumptionModifier="1.3"
+		CriticalDamageThreshold="0.9"
+		DamageCapacity="220"
+		DamagedConsumptionModifier="1.5"
+		FuelConsumption="1.8"
+		IdleFuelModifier="0.03"
+		Name="mack_m917_allison_4500_gen5"
+		MinBreakFreq="25.0"
+		MaxBreakFreq="33.3"
+	>
+		<ReverseGear AngVel="1.812" FuelModifier="1.552" />
+		<Gear AngVel="2.14" FuelModifier="1.467" />
+		<Gear AngVel="4.552" FuelModifier="1.22" />
+		<Gear AngVel="6.574" FuelModifier="1.152" />
+		<Gear AngVel="10.059" FuelModifier="1.099" />
+		<Gear AngVel="13.235" FuelModifier="1.076" />
+		<Gear AngVel="15.013" FuelModifier="1.067" />
+		<HighGear AngVel="15.013" FuelModifier="1.067" />
+		<GameData
+			Price="9700"
+			UnlockByExploration="false"
+			UnlockByRank="1"
+		>
+			<GearboxParams
+				IsHighGearExists="true"
+				IsLowerGearExists="false"
+				IsLowerPlusGearExists="false"
+				IsLowerMinusGearExists="false"
+			/>
+			<UiDesc
+				UiDesc="UI_TUNING_TRANSMISSION_ALLISON_4500_DESC"
+				UiIcon30x30=""
+				UiIcon40x40=""
+				UiName="UI_TUNING_TRANSMISSION_ALLISON_4500_NAME"
+			/>
+		</GameData>
+	</Gearbox>
+	<Gearbox
+		AWDConsumptionModifier="1.3"
+		CriticalDamageThreshold="0.9"
+		DamageCapacity="220"
+		DamagedConsumptionModifier="1.5"
+		FuelConsumption="2.1"
+		IdleFuelModifier="0.03"
+		Name="mack_m917_mdrive_hd_12gear"
+		MinBreakFreq="25.0"
+		MaxBreakFreq="33.3"
+	>
+		<ReverseGear AngVel="0.743" FuelModifier="2.347" />
+		<Gear AngVel="0.869" FuelModifier="2.15" />
+		<Gear AngVel="1.107" FuelModifier="1.903" />
+		<Gear AngVel="1.438" FuelModifier="1.695" />
+		<Gear AngVel="1.831" FuelModifier="1.546" />
+		<Gear AngVel="2.344" FuelModifier="1.427" />
+		<Gear AngVel="2.99" FuelModifier="1.334" />
+		<Gear AngVel="3.776" FuelModifier="1.265" />
+		<Gear AngVel="4.81" FuelModifier="1.208" />
+		<Gear AngVel="6.255" FuelModifier="1.16" />
+		<Gear AngVel="7.966" FuelModifier="1.126" />
+		<Gear AngVel="10.196" FuelModifier="1.098" />
+		<Gear AngVel="13.072" FuelModifier="1.076" />
+		<HighGear AngVel="13.072" FuelModifier="1.076" />
+		<GameData
+			Price="10800"
+			UnlockByExploration="false"
+			UnlockByRank="1"
+		>
+			<GearboxParams
+				IsHighGearExists="true"
+				IsLowerGearExists="true"
+				IsLowerPlusGearExists="false"
+				IsLowerMinusGearExists="false"
+			/>
+			<UiDesc
+				UiDesc="UI_TUNING_TRANSMISSION_MACK_MDRIVE_12SPEED_DESC"
+				UiIcon30x30=""
+				UiIcon40x40=""
+				UiName="UI_TUNING_TRANSMISSION_MACK_MDRIVE_12SPEED_NAME"
+			/>
+		</GameData>
+	</Gearbox>
+	<Gearbox
+		AWDConsumptionModifier="1.3"
+		CriticalDamageThreshold="0.9"
+		DamageCapacity="220"
+		DamagedConsumptionModifier="1.5"
+		FuelConsumption="2.0"
+		IdleFuelModifier="0.03"
+		Name="mack_m917_mdrive_hd_13gear_direct_drive"
+		MinBreakFreq="25.0"
+		MaxBreakFreq="33.3"
+	>
+		<ReverseGear AngVel="0.969" FuelModifier="2.032" />
+		<Gear AngVel="0.686" FuelModifier="2.457" />
+		<Gear AngVel="0.89" FuelModifier="2.123" />
+		<Gear AngVel="1.134" FuelModifier="1.882" />
+		<Gear AngVel="1.471" FuelModifier="1.68" />
+		<Gear AngVel="1.876" FuelModifier="1.533" />
+		<Gear AngVel="2.4" FuelModifier="1.417" />
+		<Gear AngVel="3.057" FuelModifier="1.327" />
+		<Gear AngVel="3.866" FuelModifier="1.259" />
+		<Gear AngVel="4.925" FuelModifier="1.203" />
+		<Gear AngVel="6.394" FuelModifier="1.156" />
+		<Gear AngVel="8.159" FuelModifier="1.123" />
+		<Gear AngVel="10.471" FuelModifier="1.095" />
+		<Gear AngVel="13.299" FuelModifier="1.075" />
+		<HighGear AngVel="13.299" FuelModifier="1.075" />
+		<GameData
+			Price="11300"
+			UnlockByExploration="false"
+			UnlockByRank="1"
+		>
+			<GearboxParams
+				IsHighGearExists="true"
+				IsLowerGearExists="true"
+				IsLowerPlusGearExists="true"
+				IsLowerMinusGearExists="true"
+				IsManualLowGear="true"
+			/>
+			<UiDesc
+				UiDesc="UI_TUNING_TRANSMISSION_MACK_MDRIVE_13SPEED_DESC"
+				UiIcon30x30=""
+				UiIcon40x40=""
+				UiName="UI_TUNING_TRANSMISSION_MACK_MDRIVE_13SPEED_NAME"
+			/>
+		</GameData>
+	</Gearbox>
+	<Gearbox
+		AWDConsumptionModifier="1.3"
+		CriticalDamageThreshold="0.9"
+		DamageCapacity="220"
+		DamagedConsumptionModifier="1.5"
+		FuelConsumption="2.0"
+		IdleFuelModifier="0.03"
+		Name="mack_m917_eaton_ultrashift_plus"
+		MinBreakFreq="25.0"
+		MaxBreakFreq="33.3"
+	>
+		<ReverseGear AngVel="0.929" FuelModifier="2.076" />
+		<Gear AngVel="0.971" FuelModifier="2.029" />
+		<Gear AngVel="1.403" FuelModifier="1.713" />
+		<Gear AngVel="1.97" FuelModifier="1.508" />
+		<Gear AngVel="2.726" FuelModifier="1.367" />
+		<Gear AngVel="3.731" FuelModifier="1.268" />
+		<Gear AngVel="5.213" FuelModifier="1.192" />
+		<Gear AngVel="6.122" FuelModifier="1.163" />
+		<Gear AngVel="7.369" FuelModifier="1.136" />
+		<Gear AngVel="8.651" FuelModifier="1.116" />
+		<Gear AngVel="10.204" FuelModifier="1.098" />
+		<Gear AngVel="11.939" FuelModifier="1.084" />
+		<Gear AngVel="13.882" FuelModifier="1.072" />
+		<Gear AngVel="16.354" FuelModifier="1.061" />
+		<HighGear AngVel="16.354" FuelModifier="1.061" />
+		<GameData
+			Price="10200"
+			UnlockByExploration="false"
+			UnlockByRank="1"
+		>
+			<GearboxParams
+				IsHighGearExists="true"
+				IsLowerGearExists="true"
+				IsLowerPlusGearExists="true"
+				IsLowerMinusGearExists="true"
+			/>
+			<UiDesc
+				UiDesc="UI_TUNING_TRANSMISSION_EATON_FULLER_13SPEED_DESC"
+				UiIcon30x30=""
+				UiIcon40x40=""
+				UiName="UI_TUNING_TRANSMISSION_EATON_FULLER_13SPEED_NAME"
+			/>
+		</GameData>
+	</Gearbox>
+</GearboxVariants>
