@@ -195,10 +195,10 @@
 			<DamageArea Type="Engine" Min="(3.405, 0.852, -0.766)" Max="(5.033, 2.343, 0.766)" ParentFrame="BoneCabin_cdt" />
 			<DamageArea Type="FuelTank" Min="(0.239, 0.668, 0.533)" Max="(1.332, 1.319, 1.162)" ParentFrame="BoneChassis_cdt" />
 		</Damage>
-		<CompatibleWheels Scale="0.6" Type="wheels_mack_defense_m917_realism" />
-		<CompatibleWheels Scale="0.6" Type="wheels_heavy_single" />
-		<CompatibleWheels Scale="0.6" Type="wheels_heavy_double1" />
-		<CompatibleWheels Scale="0.6" Type="wheels_heavy_double2" />
+		<CompatibleWheels Scale="0.6" Type="wheels_mack_defense_m917_realism_default" />
+		<CompatibleWheels Scale="0.63" Type="wheels_mack_defense_m917_realism_larger" />
+		<CompatibleWheels Scale="0.61" Type="wheels_heavy_double1" />
+		<CompatibleWheels Scale="0.61" Type="wheels_heavy_double2" />
 		<Camera Center="(-0.94; -0.35; 0)" ParentFrame="BoneCabin_cdt">
 			<Cockpit
 				_template="Default"
@@ -480,50 +480,55 @@
 			<Socket Names="Trailer" Offset="(-4.148; 0.954; 0)">
 				<AddonsShift Offset="(0; 0; 0)" TrailerNamesBlock="Trailer" Types="FrameAddonMaintainer" />
 			</Socket>
-			<Socket Names="Semitrailer, SemitrailerOiltank" Offset="(-1.970; 1.598; 0)" />
-			<Socket Names="LargeSemitrailer, LargeSemitrailerOiltank" NamesBlock="SaddleLow" Offset="(-1.970; 1.769; 0)" />
+			<Socket Names="Semitrailer, SemitrailerOiltank" Offset="(-2.270; 1.598; 0)" />
+			<Socket Names="LargeSemitrailer, LargeSemitrailerOiltank" NamesBlock="SaddleLow" Offset="(-2.270; 1.769; 0)" />
 		</AddonSockets>
 		<AddonSockets>
 			<Socket Names="BunkLog" Offset="(-6.0; 1.302; 0)" />
-			<Socket Names="FrameAddonLogShort" NamesBlock="MinicraneNavistar,MinicranePOG,MackDefenseM917RealismCabinProtector" Offset="(-1.650; 1.303; 0.0)" />
+			<Socket Names="FrameAddonLogShort" NamesBlock="MinicraneNavistar,MinicranePOG,TatraCrane,MackDefenseM917RealismCabinProtector" Offset="(-0.994; 1.303; 0.0)" />
+			<Socket Names="FrameAddonLogMedium" NamesBlock="MinicraneNavistar,MinicranePOG,TatraCrane,MackDefenseM917RealismCabinProtector" Offset="(-0.994; 1.303; 0.0)" />
 			<Socket Names="FrameAddon" Offset="(-1.294; 1.3025; 0)">
 				<AddonsShift Offset="(-0.838; 0; 0)" Types="MinicraneNavistar" />
 				<AddonsShift Offset="(-1.038; 0; 0)" Types="MinicranePOG" />
 				<AddonsShift Offset="(-0.28; 0; 0)" Types="MackDefenseM917RealismCabinProtector" />
 			</Socket>
-			<Socket Names="FrameAddonMaintainer" NamesBlock="MinicraneNavistar,MinicranePOG,MackDefenseM917RealismCabinProtector" Offset="(-1.64; 0.280; 0)" ParentFrame="BoneChassis_cdt">
+			<Socket Names="TatraSideboard" NamesBlock="MinicraneNavistar,MinicranePOG,TatraCrane,MackDefenseM917RealismCabinProtector" Offset="(0; 0.02; 0)" />
+			<Socket Names="FrameAddonMaintainer" NamesBlock="MinicraneNavistar,MinicranePOG,TatraCrane,MackDefenseM917RealismCabinProtector" Offset="(-1.64; 0.280; 0)" ParentFrame="BoneChassis_cdt">
 				<AddonsShift Offset="(-0.26; 0; 0)" Types="MackDefenseM917RealismSpareWheel" />
 			</Socket>
-			<Socket Names="FrameAddonSeismicVibrator" NamesBlock="MinicraneNavistar,MinicranePOG" Offset="(0.50; 1.3035; 0)" />
-			<Socket Names="FrameAddonTank" NamesBlock="MinicraneNavistar,MinicranePOG" Offset="(-2.2; 1.3035; 0)" />
-			<Socket Names="FrameAddonTow" NamesBlock="MinicraneNavistar,MinicranePOG" Offset="(-2.2; 1.29; 0)" />
-			<Socket Names="FrameAddonTowPlatform" NamesBlock="MinicraneNavistar,MinicranePOG" Offset="(-0.71; 1.38; 0)">
+			<Socket Names="FrameAddonSeismicVibrator" NamesBlock="MinicraneNavistar,MinicranePOG,TatraCrane" Offset="(0.50; 1.3035; 0)" />
+			<Socket Names="FrameAddonTank" NamesBlock="MinicraneNavistar,MinicranePOG,TatraCrane" Offset="(-2.2; 1.3035; 0)" />
+			<Socket Names="FrameAddonTow" NamesBlock="MinicraneNavistar,MinicranePOG,TatraCrane" Offset="(-2.2; 1.29; 0)" />
+			<Socket Names="FrameAddonTowPlatform" NamesBlock="MinicraneNavistar,MinicranePOG,TatraCrane" Offset="(-0.71; 1.38; 0)">
 				<AddonsShift Offset="(-0.28; 0; 0)" Types="MackDefenseM917RealismCabinProtector" />
 			</Socket>
 			<Socket Names="BigCraneUs" Offset="(-2.05; 1.389; 0)">
 				<ExtraParent Frame="BoneChassis_cdt" Offset="(0; -0.084; 0)" />
 				<ExtraParent Frame="BoneChassis_cdt" Offset="(0; -0.084; 0)" />
 			</Socket>
-			<Socket Names="SaddleHigh" Offset="(-1.958; 1.302; 0)" />
-			<Socket Names="SaddleLow" Offset="(-1.958; 1.302; 0)" />
+			<Socket Names="SaddleHigh" Offset="(-2.258; 1.302; 0)" />
+			<Socket Names="SaddleLow" Offset="(-2.258; 1.302; 0)" />
 			<Socket Names="FrameAddonKung" Offset="(-1.75; 1.323; 0)" />
 		</AddonSockets>
 		<AddonSockets>
-			<Socket Names="MackDefenseM917RealismCabinProtector" Offset="(-0.5; 0.32; 0)" NamesBlock="FrameAddonDerryFirefighter, FrameAddonTank, FrameAddonKung, BigCraneUs, BigCrane, BigCraneRu, FrameAddonMaintainerBig" ParentFrame="BoneCabin_cdt">
+			<Socket Names="MackDefenseM917RealismCabinProtector" Offset="(-0.5; 0.32; 0)" NamesBlock="FrameAddonTank,FrameAddonKung,TatraSideboard" ParentFrame="BoneCabin_cdt">
 				<ExtraParent Frame="BoneChassis_cdt" Offset="(-0.5; 0.32; 0)" />
 			</Socket>
 		</AddonSockets>
 		<AddonSockets>
-			<Socket Names="MinicraneNavistar" Offset="(0.750; 1.289; 0)" NamesBlock="FrameAddonDerryFirefighter, BunkLog, FrameAddonTank, FrameAddonKung, BigCraneUs, BigCrane, BigCraneRu, FrameAddonMaintainerBig" >
+			<Socket Names="MinicraneNavistar" Offset="(0.750; 1.289; 0)" NamesBlock="BigCraneUs,BunkLog,FrameAddonTank,FrameAddonKung" >
 				<ExtraParent Frame="BoneChassis_cdt" Offset="(0; 0; -0.02)" />
 				<ExtraParent Frame="BoneChassis_cdt" Offset="(0; 0; 0.02)" />
 				<AddonsShift Offset="(-0.46; 0; 0)" Types="MackDefenseM917RealismCabinProtector" />
 			</Socket>
-			<Socket Names="LogLift" NamesBlock="BigCraneUs,BigCrane,FrameAddonTank,FrameAddonMaintainerBig,FrameAddonLogShort,FrameAddonKung,FrameAddonTowPlatform,FrameAddonTow,FrameAddonSeismicVibrator,FrameAddonMaintainer,FrameAddon,FrameAddonLogShort" Offset="(0.8; 1.3035; 0)"/>
-			<Socket Names="MinicranePOG" Offset="(0.770; 1.62; 0)" NamesBlock="FrameAddonDerryFirefighter, BunkLog, FrameAddonTank, FrameAddonKung, BigCraneUs, BigCrane, BigCraneRu, FrameAddonMaintainerBig">
+			<Socket Names="LogLift" NamesBlock="FrameAddon,BigCraneUs,FrameAddonTank,FrameAddonKung,FrameAddonTowPlatform,FrameAddonTow,FrameAddonSeismicVibrator,FrameAddonMaintainer,FrameAddonLogShort,FrameAddonLogMedium" Offset="(0.8; 1.3035; 0)"/>
+			<Socket Names="MinicranePOG" Offset="(0.770; 1.62; 0)" NamesBlock="BunkLog,FrameAddonTank,FrameAddonKung">
 				<ExtraParent Frame="BoneChassis_cdt" Offset="(0; 0; -0.02)" />
 				<ExtraParent Frame="BoneChassis_cdt" Offset="(0; 0; 0.02)" />
 				<AddonsShift Offset="(-0.46; 0; 0)" Types="MackDefenseM917RealismCabinProtector" />
+			</Socket>
+			<Socket Names="TatraCrane" Offset="(0.89; -0.02; 0)" Dir="(0; 0; -1)" NamesBlock="FrameAddon,BigCraneUs,TatraSideboard,FrameAddonTank,FrameAddonKung,FrameAddonTowPlatform,FrameAddonTow,FrameAddonSeismicVibrator,FrameAddonMaintainer,FrameAddonLogShort,FrameAddonLogMedium" >
+				<AddonsShift Offset="(-0.2; 0; 0)" Types="MackDefenseM917RealismCabinProtector" />
 			</Socket>
 		</AddonSockets>
 		<AddonSockets DefaultAddon="stuff_hood_mack_bulldog_mack_defense_m917">
